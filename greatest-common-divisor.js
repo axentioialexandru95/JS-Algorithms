@@ -2,8 +2,8 @@ function greatestCommonDivisor(a, b) {
   if( b == 0 ){
     return a;
   } else {
-    return greatestCommonDivisor(b, a%b);
+    return greatestCommonDivisor(b, a % b);
   }
 }
 
-console.log(greatestCommonDivisor(12, 24))
+console.log(greatestCommonDivisor(6, 8));

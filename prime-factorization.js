@@ -14,4 +14,4 @@ function primeFactors(n){
   return factors;
 }
 
-console.log(primeFactors(125));
+console.log(primeFactors(8));
